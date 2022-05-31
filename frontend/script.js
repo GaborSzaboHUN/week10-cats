@@ -12,5 +12,3 @@ googleSearchButton.addEventListener('click', function (event) {
         form.submit();
     }
 });
-
-

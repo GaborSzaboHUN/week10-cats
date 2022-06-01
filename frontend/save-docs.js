@@ -6,7 +6,7 @@ async function save() {
 
     const saveText = document.querySelector("#save-in-progress-text");
     saveText.classList.remove("hidden");
-    await fetch("http://127.0.0.1:9001/", {
+    await fetch("http://127.0.0.1:3000/save", {
         method: "POST",
         body: docText
     });
